@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "smkButton.h"
 
-@interface smkViewController : UIViewController
+@interface smkViewController : UIViewController<UIPickerViewDataSource, UIPickerViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UIPickerView *pickerView;
+@property (weak, nonatomic) IBOutlet smkButton *spinButton;
+
+- (IBAction)spinButtonAction:(id)sender;
 
 @end

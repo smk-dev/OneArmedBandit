@@ -10,7 +10,6 @@
 		9E16BC921723B1D0008DC425 /* smkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E16BC8F1723B1D0008DC425 /* smkAppDelegate.m */; };
 		9E16BC931723B1D0008DC425 /* smkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E16BC911723B1D0008DC425 /* smkViewController.m */; };
 		9E16BC971723B23B008DC425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E16BC941723B23B008DC425 /* main.m */; };
-		9E16BC981723B23B008DC425 /* OneArmedBandit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E16BC951723B23B008DC425 /* OneArmedBandit-Info.plist */; };
 		9E830C771723B02900608108 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E830C761723B02900608108 /* UIKit.framework */; };
 		9E830C791723B02900608108 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E830C781723B02900608108 /* Foundation.framework */; };
 		9E830C7B1723B02900608108 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E830C7A1723B02900608108 /* CoreGraphics.framework */; };
@@ -21,6 +20,13 @@
 		9EF5490F1723B3B0003EEE31 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF5490C1723B3B0003EEE31 /* Default@2x.png */; };
 		9EF549161723B42F003EEE31 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF549141723B42F003EEE31 /* app_icon.png */; };
 		9EF549171723B42F003EEE31 /* app_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF549151723B42F003EEE31 /* app_icon@2x.png */; };
+		9EF5491D1723BACE003EEE31 /* smkButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF5491C1723BACE003EEE31 /* smkButton.m */; };
+		9EF549301723CD54003EEE31 /* icon-0@.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF5492A1723CD54003EEE31 /* icon-0@.png */; };
+		9EF549311723CD54003EEE31 /* icon-0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF5492B1723CD54003EEE31 /* icon-0@2x.png */; };
+		9EF549321723CD54003EEE31 /* icon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF5492C1723CD54003EEE31 /* icon-1.png */; };
+		9EF549331723CD54003EEE31 /* icon-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF5492D1723CD54003EEE31 /* icon-1@2x.png */; };
+		9EF549341723CD54003EEE31 /* icon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF5492E1723CD54003EEE31 /* icon-2.png */; };
+		9EF549351723CD54003EEE31 /* icon-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF5492F1723CD54003EEE31 /* icon-2@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +48,14 @@
 		9EF5490C1723B3B0003EEE31 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
 		9EF549141723B42F003EEE31 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_icon.png; path = Resources/app_icon.png; sourceTree = "<group>"; };
 		9EF549151723B42F003EEE31 /* app_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app_icon@2x.png"; path = "Resources/app_icon@2x.png"; sourceTree = "<group>"; };
+		9EF5491B1723BACE003EEE31 /* smkButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = smkButton.h; path = Classes/smkButton.h; sourceTree = "<group>"; };
+		9EF5491C1723BACE003EEE31 /* smkButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = smkButton.m; path = Classes/smkButton.m; sourceTree = "<group>"; };
+		9EF5492A1723CD54003EEE31 /* icon-0@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-0@.png"; path = "Resources/icon-0@.png"; sourceTree = "<group>"; };
+		9EF5492B1723CD54003EEE31 /* icon-0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-0@2x.png"; path = "Resources/icon-0@2x.png"; sourceTree = "<group>"; };
+		9EF5492C1723CD54003EEE31 /* icon-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-1.png"; path = "Resources/icon-1.png"; sourceTree = "<group>"; };
+		9EF5492D1723CD54003EEE31 /* icon-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-1@2x.png"; path = "Resources/icon-1@2x.png"; sourceTree = "<group>"; };
+		9EF5492E1723CD54003EEE31 /* icon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-2.png"; path = "Resources/icon-2.png"; sourceTree = "<group>"; };
+		9EF5492F1723CD54003EEE31 /* icon-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-2@2x.png"; path = "Resources/icon-2@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +77,8 @@
 			children = (
 				9E16BC8E1723B1D0008DC425 /* smkAppDelegate.h */,
 				9E16BC8F1723B1D0008DC425 /* smkAppDelegate.m */,
-				9E16BC901723B1D0008DC425 /* smkViewController.h */,
-				9E16BC911723B1D0008DC425 /* smkViewController.m */,
+				9EF5491A1723BAC3003EEE31 /* Utils */,
+				9EF549191723BAB8003EEE31 /* View Controllers */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -72,6 +86,12 @@
 		9E16BC811723B135008DC425 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9EF5492A1723CD54003EEE31 /* icon-0@.png */,
+				9EF5492B1723CD54003EEE31 /* icon-0@2x.png */,
+				9EF5492C1723CD54003EEE31 /* icon-1.png */,
+				9EF5492D1723CD54003EEE31 /* icon-1@2x.png */,
+				9EF5492E1723CD54003EEE31 /* icon-2.png */,
+				9EF5492F1723CD54003EEE31 /* icon-2@2x.png */,
 				9EF549141723B42F003EEE31 /* app_icon.png */,
 				9EF549151723B42F003EEE31 /* app_icon@2x.png */,
 				9EF5490A1723B3B0003EEE31 /* Default-568h@2x.png */,
@@ -138,6 +158,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9EF549191723BAB8003EEE31 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E16BC901723B1D0008DC425 /* smkViewController.h */,
+				9E16BC911723B1D0008DC425 /* smkViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9EF5491A1723BAC3003EEE31 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9EF5491B1723BACE003EEE31 /* smkButton.h */,
+				9EF5491C1723BACE003EEE31 /* smkButton.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,12 +230,17 @@
 			files = (
 				9E830C811723B02900608108 /* InfoPlist.strings in Resources */,
 				9E830C901723B02900608108 /* MainStoryboard.storyboard in Resources */,
-				9E16BC981723B23B008DC425 /* OneArmedBandit-Info.plist in Resources */,
 				9EF5490D1723B3B0003EEE31 /* Default-568h@2x.png in Resources */,
 				9EF5490E1723B3B0003EEE31 /* Default.png in Resources */,
 				9EF5490F1723B3B0003EEE31 /* Default@2x.png in Resources */,
 				9EF549161723B42F003EEE31 /* app_icon.png in Resources */,
 				9EF549171723B42F003EEE31 /* app_icon@2x.png in Resources */,
+				9EF549301723CD54003EEE31 /* icon-0@.png in Resources */,
+				9EF549311723CD54003EEE31 /* icon-0@2x.png in Resources */,
+				9EF549321723CD54003EEE31 /* icon-1.png in Resources */,
+				9EF549331723CD54003EEE31 /* icon-1@2x.png in Resources */,
+				9EF549341723CD54003EEE31 /* icon-2.png in Resources */,
+				9EF549351723CD54003EEE31 /* icon-2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +254,7 @@
 				9E16BC921723B1D0008DC425 /* smkAppDelegate.m in Sources */,
 				9E16BC931723B1D0008DC425 /* smkViewController.m in Sources */,
 				9E16BC971723B23B008DC425 /* main.m in Sources */,
+				9EF5491D1723BACE003EEE31 /* smkButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
